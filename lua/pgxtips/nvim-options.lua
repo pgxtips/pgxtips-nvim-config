@@ -34,6 +34,8 @@ vim.cmd("hi CursorLine guibg=NONE guifg=NONE")
 --allows me to insert at the beginning of multiple visual lines
 vim.o.virtualedit = "block"
 
+--remove highlight on search
+vim.o.hlsearch = false
 --incremental search
 vim.o.incsearch = true
 
