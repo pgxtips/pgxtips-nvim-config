@@ -1,6 +1,6 @@
 # Personal Neovim Workspace
 
-This repository contains my Neovim configuration, tailored to suit my workflow. I have curiated some essential plugins that boost my neovim experience, this has been created for my own experience, so it may not suit yours needs well. Feel free to explore and use it as a reference or inspiration for your own setup.
+This repository contains my Neovim configuration, tailored to suit my workflow. I have curated some essential plugins that boost my neovim experience, this has been created for my own experience, so it may not suit yours needs well. Feel free to explore and use it as a reference or inspiration for your own setup.
 
 ![Neovim](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Neovim-logo.svg/2560px-Neovim-logo.svg.png)
 
