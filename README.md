@@ -28,7 +28,15 @@ If you are on a new system, remember to create the alias in your .bashrc that bi
    alias vim="nvim"
    alias vi="nvim"
    alias oldvim="vim"
-
+   
+2. Install Node.js
+   ```sh
+   sudo apt-get install nodejs
+   
+3. Install essential compilers (build-essential)
+   ```sh
+   sudo apt-get install build-essential
+   
 ## Troubleshooting
 
 ### Latest Functional Release
