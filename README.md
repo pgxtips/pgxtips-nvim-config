@@ -18,7 +18,15 @@ To use this configuration on another machine, follow these steps:
 1. Clone this repository:
    ```sh
    git clone https://github.com/pgxtips/pgxtips-nvim-config ~/.config/nvim
-
+   
+2. Install desired LSPs using Mason:
+   ```sh
+   :Mason
+   
+3. Sign into Github Copilot:
+   ```sh
+   :Copilot
+   
 ## Reminders
 If you are on a new system, remember to create the alias in your .bashrc that bind vim to nvim
 <br/>
