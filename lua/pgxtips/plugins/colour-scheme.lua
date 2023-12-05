@@ -27,10 +27,19 @@ local M = {
       config = function()
 	  require("kanagawa").setup({
 		commentStyle={italic=true},
+        transparent = true,
+        colors={
+            theme={
+                all={
+                    ui={
+                        bg_gutter = "none"
+                    }
+                }
+            }
+        },
 	  })
 	  vim.cmd("colorscheme kanagawa-dragon")
       end,
     }
   }
-  
   return M

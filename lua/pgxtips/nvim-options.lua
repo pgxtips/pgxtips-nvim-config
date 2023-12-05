@@ -28,6 +28,7 @@ vim.o.relativenumber = true
 
 --remove line number column colour (doesnt work, will figure out at some point)
 vim.cmd("hi LineNr guibg=NONE");
+vim.cmd("highlight clear CursorLineNR");
 vim.cmd("hi CursorLineNR guibg=NONE guifg=NONE")
 vim.cmd("hi CursorLine guibg=NONE guifg=NONE")
 
