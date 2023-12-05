@@ -18,3 +18,38 @@ To use this configuration on another machine, follow these steps:
 1. Clone this repository:
    ```sh
    git clone https://github.com/pgxtips/pgxtips-nvim-config ~/.config/nvim
+
+## Reminders
+If you are on a new system, remember to create the alias in your .bashrc that bind vim to nvim
+<br/>
+
+1. Put this at the bottom of your .bashrc script:
+   ```sh
+   alias vim="nvim"
+   alias vi="nvim"
+   alias oldvim="vim"
+
+## Troubleshooting
+
+### Latest Functional Release
+#######################\
+ NVIM v0.10.0-dev\
+ Build type: RelWithDebInfo\
+ LuaJIT 2.1.0-beta3\
+#######################
+
+### Keymap index of (nil) value
+Encountering the "Keymap index of (nil) value" issue is often attributed to unsupported versions of Neovim. This anomaly arises when the stable release of Neovim lacks the necessary features for your particular build.
+<br/>
+<br/>
+To address this, consider the following solution:
+<br/>
+1. Add the Unstable PPA:
+   ```sh
+   sudo add-apt-repository ppa:neovim-ppa/unstable
+   sudo apt-get update
+
+2. Install Neovim:
+   ```sh
+   sudo apt-get install neovim
+  
