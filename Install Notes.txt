@@ -1,0 +1,7 @@
+When installing packer first paste on windows type this in the shell (Run as Admin):
+
+git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim
+
+
+For others reference the packer.nvim github page
+

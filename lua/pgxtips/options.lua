@@ -44,9 +44,13 @@ vim.o.incsearch = true
 vim.o.scrolloff = 8
 
 --sets update time of how long vim waits to run plugins
-vim.o.updatetime = 100
+vim.o.updatetime = 50 
 
+--better terminal colours
+vim.o.termguicolors = true
+
+--set 80 wide column
+vim.o.colorcolumn = "80"
 
 --netrw on start
 vim.cmd[[autocmd VimEnter * :Explore]]
-
