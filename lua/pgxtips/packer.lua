@@ -16,14 +16,17 @@ return require('packer').startup(function(use)
 
 
   --------------- KANAGAWA CS ---------------
-  use({ 
+  use({
       "rebelot/kanagawa.nvim",
       as = "kanagawa",
   })
 
 
   ---------------- TREESITTER ----------------
-  use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
+  use('nvim-treesitter/nvim-treesitter', {
+      commit = '<9bfaf62e42bdcd042df1230e9188487e62a112c0>',
+      run = ':TSUpdate'
+  })
 
 
   ----------------- HARPOON ------------------
