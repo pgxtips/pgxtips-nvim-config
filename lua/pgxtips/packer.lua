@@ -62,5 +62,8 @@ return require('packer').startup(function(use)
   use("github/copilot.vim")
 
 
+  ------------- GITHUB INTEGRATION ------------
+  use("tpope/vim-fugitive");
+
 end)
 
